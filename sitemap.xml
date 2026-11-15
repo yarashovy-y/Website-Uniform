@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.example.com/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/"/>
+  </url>
+  <url>
+    <loc>https://www.example.com/ru/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/"/>
+  </url>
+  <url>
+    <loc>https://www.example.com/en/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/"/>
+  </url>
+  <url>
+    <loc>https://www.example.com/tk/quote/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/tk/quote/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/quote/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/quote/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/tk/quote/"/>
+  </url>
+  <url>
+    <loc>https://www.example.com/ru/quote/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/tk/quote/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/quote/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/quote/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/tk/quote/"/>
+  </url>
+  <url>
+    <loc>https://www.example.com/en/quote/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tk" href="https://www.example.com/tk/quote/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.example.com/ru/quote/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.example.com/en/quote/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.example.com/tk/quote/"/>
+  </url>
+</urlset>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /styleguide/
+Disallow: /tools/
+
+Sitemap: https://www.example.com/sitemap.xml

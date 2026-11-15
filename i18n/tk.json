@@ -1,0 +1,244 @@
+{
+  "_comment": "NEEDS NATIVE REVIEW — Turkmen copy must be checked by a native speaker before launch. Placeholders are written as [CLIENT TO PROVIDE] and are listed in /PLACEHOLDERS.md. After editing this file run: node tools/build.mjs",
+  "meta": {
+    "ogLocale": "tk_TM",
+    "home": {
+      "title": "Gandash Uniform — Türkmenistanda öndürilen hünärmen geýimler we iş geýimleri",
+      "description": "Gandash Uniform (Ýörite Geýimler Dünýäsi) — Türkmenabatda buýurma boýunça ýörite geýimleri we iş geýimlerini öndüriji: lukmançylyk, korporatiw, senagat, gurluşyk, myhmanhana, howpsuzlyk, mekdep we sport geýimleri."
+    },
+    "quote": {
+      "title": "Bahalandyrma soramak — Gandash Uniform",
+      "description": "Ýörite geýimlere bolan talaplaryňyzy Gandash Uniform kärhanasyna iberiň: pudak, geýimiň görnüşi, mukdary, gowşurmak senesi we logotip. Biz buýurmaňyz üçin bahalandyrma taýýarlarys."
+    }
+  },
+  "common": {
+    "skip": "Mazmuna geçmek",
+    "menu": "Menýu",
+    "closeMenu": "Menýuny ýapmak",
+    "mainNav": "Esasy nawigasiýa",
+    "language": "Dil",
+    "requestQuote": "Bahalandyrma sorap",
+    "homeLabel": "Gandash Uniform — baş sahypa",
+    "placeholder": "[CLIENT TO PROVIDE]",
+    "location": "Türkmenabat, Lebap welaýaty, Türkmenistan",
+    "devBadge": "sany doldurylmaly ýer bar — PLACEHOLDERS.md serediň"
+  },
+  "nav": {
+    "products": "Önümler",
+    "industries": "Pudaklar",
+    "why": "Artykmaçlyklar",
+    "process": "Önümçilik",
+    "contact": "Habarlaşmak"
+  },
+  "hero": {
+    "label": "Ýörite geýimleri we iş geýimlerini öndüriji · Türkmenabat",
+    "title": "Türkmenistanda öndürilen hünärmen geýimler",
+    "sub": "Ýeňillik, goragy we ýokary netijelilik üçin niýetlenen buýurma iş geýimleri.",
+    "cta1": "Bahalandyrma sorap",
+    "cta2": "Önümleri görmek",
+    "imgLabel": "Surat: tikin maşynynyň başyndaky tikinçi, 4:5",
+    "scroll": "Aşak",
+    "note": "Ýörite Geýimler Dünýäsi"
+  },
+  "stats": {
+    "aria": "Esasy maglumatlar",
+    "countLabel": "görnüşli ýörite geýim we iş geýimi öndürilýär",
+    "facts": [
+      { "title": "Buýurma boýunça önümçilik", "text": "Geýimler siziň buýurmaňyza görä taýýarlanýar: modeller, ölçegler, reňkler we nyşanlar." },
+      { "title": "Döwrebap tikin enjamlary", "text": "Önümçilik bölümi takyk we durnukly iş üçin enjamlaşdyrylan." },
+      { "title": "Birleşmäniň agzasy", "text": "Türkmenistanyň Senagatçylar we telekeçiler birleşmesiniň agzasy." }
+    ]
+  },
+  "categories": {
+    "label": "Önümleriň görnüşleri",
+    "title": "On ugur. Bir öndüriji.",
+    "intro": "Biz işimizi lukmançylyk geýimlerinden başlap, korporatiw, senagat, hyzmat we sport geýimlerine çenli giňeltdik. Häzirki wagtda 100-den gowrak görnüşli geýim öndürýäris.",
+    "cardCta": "Bahalandyrma sorap",
+    "items": {
+      "medical": { "name": "Lukmançylyk geýimleri", "desc": "Hassahanalar, klinikalar we barlaghanalar üçin halatlar, lukmançylyk toplumlary we başgaplar." },
+      "corporate": { "name": "Korporatiw geýimler", "desc": "Kärhanaňyzy bir bitewi keşpde görkezýän ofis we kabul ediş işgärleriniň geýimleri." },
+      "industrial": { "name": "Senagat iş geýimleri", "desc": "Zawodlar we sehler üçin berk kombinezonlar, penjekler we balaklar." },
+      "construction": { "name": "Gurluşyk iş geýimleri", "desc": "Gurluşyk meýdançasynyň şertlerine we gündelik işe çydamly geýimler." },
+      "hospitality": { "name": "Myhmanhana we restoran", "desc": "Myhmanhanalar, restoranlar, aşhana we hyzmat ediji işgärler üçin geýimler." },
+      "security": { "name": "Howpsuzlyk gullugy", "desc": "Gorag gulluklary üçin amatly we tanalýan geýimler." },
+      "school": { "name": "Mekdep geýimleri", "desc": "Okuwçylar we talyplar üçin amatly gündelik geýimler." },
+      "sportswear": { "name": "Sport geýimleri", "desc": "Klublar, mekdepler we guramalar üçin topar we türgenleşik geýimleri." },
+      "hivis": { "name": "Ýokary görnükli geýimler", "desc": "Işgärleriň iş wagtynda gowy görünmegini üpjün edýän signal žiletleri we geýimler." },
+      "accessories": { "name": "Esbaplar", "desc": "Öňlükler, başgaplar we geýim toplumyny doldurýan beýleki önümler." }
+    },
+    "tile": {
+      "title": "Aýratyn bir zat gerekmi?",
+      "text": "Toparyňyzyň näme iş edýändigini aýdyň — biz laýyk geýimleri hödürläris.",
+      "cta": "Bahalandyrma sorap"
+    }
+  },
+  "industries": {
+    "label": "Hyzmat edýän pudaklarymyz",
+    "title": "Her pudagyň işine laýyk geýimler",
+    "intro": "Her iş ýeriniň öz talaplary bar. Biz geýimleri guramaňyzyň wezipelerine, iş şertlerine we daşky keşbine görä taýýarlaýarys we tikýäris.",
+    "imgLabel": "Surat: iş ýerinde ýörite geýimli işgärler, 3:2",
+    "items": [
+      { "name": "Saglygy goraýyş", "desc": "Hassahanalar, klinikalar, barlaghanalar we dermanhanalar." },
+      { "name": "Senagat", "desc": "Zawodlar, kärhanalar we sehler." },
+      { "name": "Gurluşyk", "desc": "Potratçylar, gurluşyk toparlary we inženerler." },
+      { "name": "Myhmanhanalar we restoranlar", "desc": "Kabul ediş, hojalyk gullugy, aşhana we hyzmat ediş işgärleri." },
+      { "name": "Bilim", "desc": "Mekdepler we okuw mekdepleri." },
+      { "name": "Howpsuzlyk gulluklary", "desc": "Gorag, giriş gözegçiligi we gözegçilik işgärleri." },
+      { "name": "Döwlet edaralary", "desc": "Döwlet guramalary we kärhanalary." },
+      { "name": "Korporasiýalar", "desc": "Ofisler, söwda ulgamlary we hyzmat ediş kärhanalary." }
+    ]
+  },
+  "why": {
+    "label": "Näme üçin biz",
+    "title": "Yhlas bilen tikilen. Her gün geýmek üçin niýetlenen.",
+    "items": [
+      { "title": "Ýerli önümçilik", "text": "Geýimler Türkmenabatda öndürilýär — siz gönüden-göni öndüriji bilen işleýärsiňiz." },
+      { "title": "Buýurma boýunça önümçilik", "text": "Modeller, ölçegler, reňkler we logotipiň ýerleşişi her buýurma üçin ylalaşylýar." },
+      { "title": "Giň görnüşler", "text": "100-den gowrak görnüşli iş geýimi — dürli bölümler üçin bir üpjün ediji." },
+      { "title": "Döwrebap enjamlar", "text": "Döwrebap tikin enjamlary tekiz tikişleri we durnukly netijäni üpjün edýär." },
+      { "title": "Amatlylyk we gorag", "text": "Geýimler hereket, howpsuzlyk we iş şertleri göz öňünde tutulyp taýýarlanýar." },
+      { "title": "Çydamlylyk we hünärmen keşp", "text": "Gündelik işde öz görnüşini saklaýan amaly geýimler." }
+    ]
+  },
+  "featured": {
+    "label": "Saýlanan önümler",
+    "title": "Önümlerimizden bir topar",
+    "intro": "Bu ýerde nusga hökmünde görkezilen önümler ýerleşdirildi. Gutarnykly modeller, suratlar we häsiýetnamalar öndüriji tarapyndan çap ediler.",
+    "sample": "Nusga önüm",
+    "enquire": "Şu önüm barada soramak",
+    "imgPrefix": "Surat:",
+    "noscript": "Önümleriň sanawy"
+  },
+  "process": {
+    "label": "Önümçilik tapgyrlary",
+    "title": "Ilkinji ýüz tutmadan taýýar buýurma çenli",
+    "intro": "Düşnükli yzygiderlilik her buýurmany öňünden belli edýär — tabşyrykdan gaplanan geýimlere çenli.",
+    "steps": [
+      { "title": "Ýüz tutma", "text": "Siz talaplaryňyzy bahalandyrma formasy arkaly iberýärsiňiz ýa-da biziň bilen gönüden-göni habarlaşýarsyňyz." },
+      { "title": "Talaplar", "text": "Wezipeleri, iş şertlerini, mukdary we ölçegleri anyklaýarys." },
+      { "title": "Model we mata", "text": "Modeller, matalar, reňkler we logotipiň ýerleşişi saýlanýar." },
+      { "title": "Nusga", "text": "Önümçilikden öň geýime baha bermek üçin nusga taýýarlanýar." },
+      { "title": "Tassyklama", "text": "Siz nusgany, ölçegleri we buýurmanyň jikme-jikliklerini tassyklaýarsyňyz." },
+      { "title": "Biçmek", "text": "Mata tassyklanan ülňüler boýunça bellenýär we biçilýär." },
+      { "title": "Tikmek we nyşan", "text": "Geýimler tikilýär we zerur bolsa keşde ýa-da çap bilen bezelýär." },
+      { "title": "Hil barlagy we gowşurmak", "text": "Taýýar önümler barlanýar, gaplanýar we buýrujy gowşurylýar." }
+    ]
+  },
+  "testimonials": {
+    "label": "Syn-teswirler",
+    "title": "Müşderilerimiz näme diýýär",
+    "text": "Müşderileriň syn-teswirleri olaryň razylygy alnandan soň şu ýerde çap ediler.",
+    "tag": "[CLIENT TO PROVIDE: tassyklanan syn-teswirler]"
+  },
+  "cta": {
+    "title": "Toparyňyza nähili geýim gerekdigini aýdyň",
+    "text": "Pudagyňyzy, geýimleriň görnüşlerini we mukdaryny beýan ediň. Biz buýurmaňyz üçin bahalandyrma taýýarlarys.",
+    "button": "Bahalandyrma sorap"
+  },
+  "contact": {
+    "label": "Habarlaşmak",
+    "title": "Öndüriji bilen habarlaşyň",
+    "intro": "Gysga soragyňyz barmy? Habar galdyryň, biz size jogap bereris. Jikme-jik buýurma üçin bahalandyrma formasyny ulanyň.",
+    "addressLabel": "Salgy",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-poçta",
+    "hoursLabel": "Iş wagty",
+    "streetTag": "[CLIENT TO PROVIDE: köçe, jaý]",
+    "phoneTag": "[CLIENT TO PROVIDE: telefon]",
+    "emailTag": "[CLIENT TO PROVIDE: e-poçta]",
+    "hoursTag": "[CLIENT TO PROVIDE: iş wagty]",
+    "formTitle": "Gysga habar",
+    "quoteLink": "Doly bahalandyrma formasyna geçmek"
+  },
+  "form": {
+    "requiredNote": "* bilen bellenen meýdanlar hökmany.",
+    "name": "Adyňyz",
+    "company": "Kärhananyň ady",
+    "person": "Habarlaşmak üçin adam",
+    "phone": "Telefon",
+    "email": "E-poçta",
+    "industry": "Pudak",
+    "type": "Geýimiň görnüşi",
+    "quantity": "Takmynan mukdary (sany)",
+    "date": "Gerekli gowşurmak senesi",
+    "logo": "Logotip ýerleşdirmek",
+    "message": "Habar",
+    "messageHint": "Modeller, ölçegler, reňkler, mata boýunça islegler we beýleki maglumatlar.",
+    "optional": "hökmany däl",
+    "select": "Saýlaň…",
+    "consent": "Görkezen maglumatlarymyň şu sorag boýunça meniň bilen habarlaşmak üçin ulanylmagyna razydyryn.",
+    "submitQuote": "Soragy ibermek",
+    "submitContact": "Habary ibermek",
+    "sending": "Iberilýär…",
+    "noscript": "Formany ibermek üçin JavaScript gerek. Ony işjeňleşdiriň ýa-da biziň bilen gönüden-göni habarlaşyň.",
+    "logoOptions": { "none": "Gerek däl", "embroidery": "Keşde", "print": "Çap" },
+    "industryOptions": {
+      "healthcare": "Saglygy goraýyş",
+      "manufacturing": "Senagat",
+      "construction": "Gurluşyk",
+      "hospitality": "Myhmanhanalar we restoranlar",
+      "education": "Bilim",
+      "security": "Howpsuzlyk gulluklary",
+      "government": "Döwlet edarasy",
+      "corporate": "Korporatiw / ofis",
+      "other": "Beýleki"
+    },
+    "typeOther": "Birnäçe görnüş / entek belli däl",
+    "legends": { "company": "Siziň guramaňyz", "order": "Buýurma barada", "extra": "Goşmaça maglumat" },
+    "errors": {
+      "summary": "Bellenen meýdanlary düzediň.",
+      "required": "Bu meýdany dolduryň.",
+      "select": "Bir görnüşi saýlaň.",
+      "email": "Dogry e-poçta salgysyny giriziň.",
+      "phone": "Dogry telefon belgisini giriziň.",
+      "quantity": "1 ýa-da ondan uly bitin san giriziň.",
+      "date": "Sene geçen wagtda bolup bilmez.",
+      "consent": "Razylygyňyzy tassyklaň.",
+      "send": "Soragy iberip bolmady. Täzeden synanyşyň ýa-da biziň bilen gönüden-göni habarlaşyň.",
+      "notConfigured": "Onlaýn ibermek entek birikdirilmedi. [CLIENT TO PROVIDE: formany eltmek kanaly — README serediň]"
+    },
+    "success": {
+      "quoteTitle": "Sag boluň — soragyňyz iberildi",
+      "quoteText": "Biz maglumatlary öwreneris we buýurmany anyklamak hem-de bahalandyrma taýýarlamak üçin siziň bilen habarlaşarys.",
+      "contactTitle": "Sag boluň — habaryňyz iberildi",
+      "contactText": "Biz görkezen maglumatlaryňyz boýunça siziň bilen habarlaşarys.",
+      "handoffTitle": "Ýene bir ädim",
+      "handoffText": "Soragyňyz e-poçta ýa-da habarlaşma programmaňyzda taýýarlandy. Tamamlamak üçin şol ýerde «Ibermek» düwmesini basyň.",
+      "again": "Ýene bir sorag ibermek"
+    },
+    "subjectQuote": "Bahalandyrma soragy — web sahypa",
+    "subjectContact": "Habar — web sahypa"
+  },
+  "quote": {
+    "label": "Bahalandyrma soramak",
+    "title": "Buýurmaňyz barada gürrüň beriň",
+    "intro": "Bilýän maglumatlaryňyzy dolduryň — takmynan sanlar hem ýeterlik. Galanyny siziň bilen bilelikde anyklarys.",
+    "asideTitle": "Mundan soň näme bolar",
+    "asideSteps": [
+      "Biz soragyňyzy öwrenýäris.",
+      "Modelleri, ölçegleri, matany we nyşany anyklamak üçin siziň bilen habarlaşýarys.",
+      "Siz buýurmaňyz üçin bahalandyrma alýarsyňyz."
+    ],
+    "prepTitle": "Öňünden taýýarlamak peýdaly",
+    "prepItems": [
+      "Işgärleriň sany we ölçegler boýunça takmynan paýlanyşy",
+      "Iş şertleri we wezipeler",
+      "Nyşan gerek bolsa, logotipiň faýly"
+    ],
+    "directTitle": "Gürleşmek amatlymy?",
+    "back": "Baş sahypa dolanmak"
+  },
+  "footer": {
+    "tagline": "Türkmenistanda öndürilen hünärmen geýimler we iş geýimleri.",
+    "legalLabel": "Resmi ady",
+    "member": "Türkmenistanyň Senagatçylar we telekeçiler birleşmesiniň agzasy",
+    "navTitle": "Nawigasiýa",
+    "contactTitle": "Habarlaşmak",
+    "langTitle": "Dil",
+    "rights": "Ähli hukuklar goralan."
+  },
+  "jsonld": {
+    "description": "Türkmenabat şäherinde hünärmen geýimleri we iş geýimlerini öndüriji: lukmançylyk, korporatiw, senagat, gurluşyk, myhmanhana, howpsuzlyk, mekdep, sport, ýokary görnükli geýimler we esbaplar.",
+    "union": "Türkmenistanyň Senagatçylar we telekeçiler birleşmesi"
+  }
+}

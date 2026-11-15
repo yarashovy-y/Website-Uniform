@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Gandash Uniform — design tokens  ·  "Precision Made for Work"
+   ========================================================================== */
+
+/* Self-hosted variable fonts (SIL OFL 1.1), subset to Basic Latin + Turkmen + Russian Cyrillic. */
+@font-face {
+  font-family: "Unbounded";
+  src: url("../assets/fonts/unbounded-latin.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2013-2014, U+2018-201E, U+2022, U+2026;
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("../assets/fonts/unbounded-latin-ext.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0147-0148, U+015E-015F, U+017D-017E; /* Ň ň Ş ş Ž ž */
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("../assets/fonts/unbounded-cyrillic.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0401, U+0410-044F, U+0451, U+2116;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../assets/fonts/onest-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2013-2014, U+2018-201E, U+2022, U+2026;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../assets/fonts/onest-latin-ext.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0147-0148, U+015E-015F, U+017D-017E;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../assets/fonts/onest-cyrillic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0401, U+0410-044F, U+0451, U+2116;
+}
+
+:root {
+  /* Colour — brand */
+  --navy: #0B1F3A;
+  --navy-700: #12294A;
+  --navy-600: #1C3A66;
+  --charcoal: #1B1F24;
+  --paper: #F6F4EF;
+  --sand: #E4E0D8;
+  --white: #FFFFFF;
+  --orange: #FF5A1F;          /* CTAs and key highlights only */
+  --orange-hover: #FF7A45;
+  --orange-ink: #B23A0C;      /* accent text on light surfaces (AA) */
+
+  /* Colour — roles */
+  --ink: var(--charcoal);
+  --ink-soft: #4A5058;         /* 7.4:1 on paper */
+  --on-dark: var(--paper);
+  --on-dark-soft: #B9C3D2;     /* 9.2:1 on navy */
+  --line: rgba(27, 31, 36, 0.18);
+  --line-strong: rgba(27, 31, 36, 0.55);
+  --line-dark: rgba(246, 244, 239, 0.2);
+  --error: #B3261E;
+  --focus: #FF5A1F;
+
+  /* Typography */
+  --font-display: "Unbounded", "Arial Black", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Onest", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Type scale (fluid) */
+  --fs-hero: clamp(1.5rem, 0.82rem + 3.1vw, 4.25rem);
+  --fs-h1: clamp(1.5rem, 1.05rem + 2vw, 3rem);
+  --fs-h2: clamp(1.375rem, 1.05rem + 1.45vw, 2.375rem);
+  --fs-h3: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --fs-lead: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  --fs-body: 1rem;
+  --fs-caption: 0.875rem;
+  --fs-label: 0.75rem;
+  --fs-numeral: clamp(4rem, 2.6rem + 6.5vw, 8.5rem);
+
+  --lh-tight: 1.08;
+  --lh-snug: 1.25;
+  --lh-body: 1.6;
+
+  /* Space */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --section-y: clamp(4rem, 2.5rem + 6vw, 8.5rem);
+
+  /* Layout — 12-column grid */
+  --container: 82rem;
+  --gutter: clamp(1.25rem, 0.6rem + 2.8vw, 3rem);
+  --col-gap: clamp(1rem, 0.6rem + 1.4vw, 2rem);
+  --header-h: 4.5rem;
+  --header-h-small: 3.5rem;
+  --radius: 2px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-1: 300ms;
+  --dur-2: 500ms;
+  --dur-3: 700ms;
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" class="js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Style guide — Gandash Uniform</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Internal design-system reference for the Gandash Uniform website: colours, type scale and components.">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <style>
+    .sg { padding-block: 3rem; display: grid; gap: 4rem; }
+    .sg-row { display: grid; gap: 1.5rem; }
+    .sg-swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 1rem; }
+    .sg-swatch { border: 1px solid var(--line); }
+    .sg-swatch i { display: block; height: 5rem; }
+    .sg-swatch p { padding: 0.5rem 0.75rem; font-size: 0.8125rem; }
+    .sg-type > div { display: grid; gap: 0.25rem; padding-block: 1.25rem; border-top: 1px dashed var(--line-strong); }
+    .sg-dark { background: var(--navy); color: var(--on-dark); padding: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+    .sg-light { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+    .sg-hero { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-hero); line-height: var(--lh-tight); letter-spacing: -0.02em; }
+    .sg-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--col-gap); }
+    .sg-grid i { height: 3rem; background: rgba(255, 90, 31, 0.18); border: 1px dashed var(--orange-ink); }
+  </style>
+</head>
+<body>
+  <main class="container sg">
+    <header class="sg-row">
+      <p class="label label--tick">Design system · internal</p>
+      <h1 class="h1">Precision Made for Work</h1>
+      <p class="lead">Tokens live in <code>/css/tokens.css</code>. Orange is reserved for CTAs and key highlights; body copy never uses it on light surfaces (use <code>--orange-ink</code>).</p>
+    </header>
+
+    <section class="sg-row" aria-labelledby="sg-colour">
+      <h2 class="h2" id="sg-colour">Colour</h2>
+      <div class="sg-swatches">
+        <div class="sg-swatch"><i style="background:var(--navy)"></i><p><strong>Navy</strong><br>#0B1F3A · --navy</p></div>
+        <div class="sg-swatch"><i style="background:var(--charcoal)"></i><p><strong>Charcoal</strong><br>#1B1F24 · --charcoal</p></div>
+        <div class="sg-swatch"><i style="background:var(--paper)"></i><p><strong>Off-white</strong><br>#F6F4EF · --paper</p></div>
+        <div class="sg-swatch"><i style="background:var(--sand)"></i><p><strong>Warm gray</strong><br>#E4E0D8 · --sand</p></div>
+        <div class="sg-swatch"><i style="background:var(--orange)"></i><p><strong>Industrial orange</strong><br>#FF5A1F · --orange</p></div>
+        <div class="sg-swatch"><i style="background:var(--orange-ink)"></i><p><strong>Orange ink</strong><br>#B23A0C · --orange-ink</p></div>
+      </div>
+    </section>
+
+    <section class="sg-row sg-type" aria-labelledby="sg-type">
+      <h2 class="h2" id="sg-type">Type scale</h2>
+      <div><p class="label">Hero · Unbounded 600 · --fs-hero</p><p class="sg-hero">Hünärmen geýimler · Форма · Uniforms</p></div>
+      <div><p class="label">H1 · Unbounded 600 · --fs-h1</p><p class="h1">Ýörite Geýimler Dünýäsi · Расчёт</p></div>
+      <div><p class="label">H2 · Unbounded 600 · --fs-h2</p><p class="h2">Önümçilik tapgyrlary · Производство</p></div>
+      <div><p class="label">H3 · Onest 650 · --fs-h3</p><p class="h3">Döwrebap tikin enjamlary · Современное оборудование</p></div>
+      <div><p class="label">Lead · Onest 400 · --fs-lead</p><p class="lead">Custom workwear and uniforms designed for comfort, protection, and performance.</p></div>
+      <div><p class="label">Body · Onest 400 · --fs-body</p><p>ä ž ň ö ü ý ş ç Ä Ž Ň Ö Ü Ý Ş Ç — а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я</p></div>
+      <div><p class="label">Caption · --fs-caption</p><p class="caption">Sample positions shown for layout.</p></div>
+      <div><p class="label">Small uppercase label · --fs-label</p><p class="label label--tick">Product range</p></div>
+      <div><p class="label">Numeral · Unbounded 700 · --fs-numeral</p><p class="stat__num">100<span class="stat__plus">+</span></p></div>
+    </section>
+
+    <section class="sg-row" aria-labelledby="sg-grid">
+      <h2 class="h2" id="sg-grid">12-column grid</h2>
+      <div class="sg-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="sg-row" aria-labelledby="sg-btn">
+      <h2 class="h2" id="sg-btn">Buttons and links</h2>
+      <div class="sg-dark">
+        <a class="btn btn--primary btn--lg" href="#sg-btn">Primary large</a>
+        <a class="btn btn--primary" href="#sg-btn">Primary</a>
+        <a class="btn btn--primary btn--sm" href="#sg-btn">Primary small</a>
+        <a class="btn btn--ghost" href="#sg-btn">Ghost (dark surfaces)</a>
+      </div>
+      <div class="sg-light">
+        <a class="btn btn--outline" href="#sg-btn">Outline (light surfaces)</a>
+        <a class="link-arrow" href="#sg-btn">Arrow link<svg class="icon-arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+        <span class="tag">Tag</span>
+        <span class="ph-tag">[CLIENT TO PROVIDE: example]</span>
+      </div>
+    </section>
+
+    <section class="sg-row" aria-labelledby="sg-ph">
+      <h2 class="h2" id="sg-ph">Placeholder image</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1.5rem;align-items:start">
+        <div class="ph-img" style="--ratio:4/5" role="img" aria-label="Photo placeholder 4:5"><span class="ph-img__label">Photo: subject, 4:5</span></div>
+        <div class="ph-img" style="--ratio:3/2" role="img" aria-label="Photo placeholder 3:2"><span class="ph-img__label">Photo: subject, 3:2</span></div>
+        <div class="ph-img ph-img--dark" style="--ratio:1/1" role="img" aria-label="Photo placeholder 1:1, dark"><span class="ph-img__label">Photo: subject, 1:1 (dark)</span></div>
+      </div>
+    </section>
+
+    <section class="sg-row" aria-labelledby="sg-form">
+      <h2 class="h2" id="sg-form">Form fields</h2>
+      <div class="panel">
+        <div class="form__grid">
+          <div class="field"><label for="sg-a">Text field <span class="req" aria-hidden="true">*</span></label><input id="sg-a" type="text"></div>
+          <div class="field"><label for="sg-b">Field with error</label><input id="sg-b" type="text" aria-invalid="true" aria-describedby="sg-b-err"><p class="field__error" id="sg-b-err">Please fill in this field.</p></div>
+          <div class="field"><label for="sg-c">Select</label><select id="sg-c"><option>Select…</option></select></div>
+          <div class="field field--check"><label class="check" for="sg-d"><input id="sg-d" type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Checkbox label</span></label></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

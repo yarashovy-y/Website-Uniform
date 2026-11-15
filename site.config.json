@@ -1,0 +1,8 @@
+{
+  "_comment": "Site-wide settings used by tools/build.mjs. baseUrl is a PLACEHOLDER — replace with the real production domain (no trailing slash), then run: node tools/build.mjs",
+  "baseUrl": "https://www.example.com",
+  "brand": "Gandash Uniform",
+  "legalName": "Ýörite Geýimler Dünýäsi",
+  "defaultLang": "tk",
+  "languages": ["tk", "ru", "en"]
+}

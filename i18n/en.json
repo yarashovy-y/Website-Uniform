@@ -1,0 +1,244 @@
+{
+  "_comment": "English source copy. Placeholders are written as [CLIENT TO PROVIDE] and are listed in /PLACEHOLDERS.md. After editing this file run: node tools/build.mjs",
+  "meta": {
+    "ogLocale": "en_US",
+    "home": {
+      "title": "Gandash Uniform — Professional Uniforms and Workwear Made in Turkmenistan",
+      "description": "Gandash Uniform (Ýörite Geýimler Dünýäsi) manufactures custom uniforms and workwear in Türkmenabat: medical, corporate, industrial, construction, hospitality, security, school and sportswear."
+    },
+    "quote": {
+      "title": "Request a Quote — Gandash Uniform",
+      "description": "Send your uniform or workwear requirements to Gandash Uniform: industry, garment type, quantity, delivery date and logo customisation. We will prepare a quote for your order."
+    }
+  },
+  "common": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "language": "Language",
+    "requestQuote": "Request a Quote",
+    "homeLabel": "Gandash Uniform — home page",
+    "placeholder": "[CLIENT TO PROVIDE]",
+    "location": "Türkmenabat, Lebap velayat, Turkmenistan",
+    "devBadge": "placeholders on this page — see PLACEHOLDERS.md"
+  },
+  "nav": {
+    "products": "Products",
+    "industries": "Industries",
+    "why": "Why us",
+    "process": "Process",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Uniform and workwear manufacturer · Türkmenabat",
+    "title": "Professional Uniforms Made in Turkmenistan",
+    "sub": "Custom workwear and uniforms designed for comfort, protection, and performance.",
+    "cta1": "Request a Quote",
+    "cta2": "Explore Products",
+    "imgLabel": "Photo: tailor at sewing machine, 4:5",
+    "scroll": "Scroll",
+    "note": "Ýörite Geýimler Dünýäsi"
+  },
+  "stats": {
+    "aria": "Key facts",
+    "countLabel": "types of uniforms and workwear in production",
+    "facts": [
+      { "title": "Custom production", "text": "Garments made to your order: models, sizes, colours and branding." },
+      { "title": "Modern sewing equipment", "text": "A production floor equipped for consistent, accurate work." },
+      { "title": "Union member", "text": "Member of the Union of Industrialists and Entrepreneurs of Turkmenistan." }
+    ]
+  },
+  "categories": {
+    "label": "Product range",
+    "title": "Ten categories. One manufacturer.",
+    "intro": "We started with medical clothing and grew into corporate, industrial, service and sportswear. Today the range covers more than 100 types of garments.",
+    "cardCta": "Request a quote",
+    "items": {
+      "medical": { "name": "Medical", "desc": "Coats, tunics, scrub sets and caps for clinics, hospitals and laboratories." },
+      "corporate": { "name": "Corporate", "desc": "Office and front-desk uniforms that present your company consistently." },
+      "industrial": { "name": "Industrial", "desc": "Durable overalls, jackets and trousers for factories and workshops." },
+      "construction": { "name": "Construction", "desc": "Hard-wearing workwear built for site conditions and daily use." },
+      "hospitality": { "name": "Hospitality", "desc": "Uniforms for hotels, restaurants, kitchens and service staff." },
+      "security": { "name": "Security", "desc": "Practical, recognisable uniforms for guard and security services." },
+      "school": { "name": "School", "desc": "Comfortable everyday uniforms for pupils and students." },
+      "sportswear": { "name": "Sportswear", "desc": "Team kits and training wear for clubs, schools and organisations." },
+      "hivis": { "name": "High-visibility", "desc": "Signal vests and garments that keep workers visible on the job." },
+      "accessories": { "name": "Accessories", "desc": "Aprons, headwear and other items that complete the uniform." }
+    },
+    "tile": {
+      "title": "Need something specific?",
+      "text": "Tell us what your team does — we will propose suitable garments.",
+      "cta": "Request a Quote"
+    }
+  },
+  "industries": {
+    "label": "Industries served",
+    "title": "Workwear for the way each sector works",
+    "intro": "Every workplace has its own demands. We design and sew garments around the tasks, conditions and appearance your organisation requires.",
+    "imgLabel": "Photo: staff in uniform at their workplace, 3:2",
+    "items": [
+      { "name": "Healthcare", "desc": "Hospitals, clinics, laboratories and pharmacies." },
+      { "name": "Manufacturing", "desc": "Factories, plants and workshops." },
+      { "name": "Construction", "desc": "Contractors, site teams and engineering staff." },
+      { "name": "Hotels and restaurants", "desc": "Reception, housekeeping, kitchen and service teams." },
+      { "name": "Education", "desc": "Schools and educational institutions." },
+      { "name": "Security services", "desc": "Guard, access-control and patrol staff." },
+      { "name": "Government bodies", "desc": "Public institutions and state enterprises." },
+      { "name": "Corporations", "desc": "Offices, retail networks and service companies." }
+    ]
+  },
+  "why": {
+    "label": "Why choose us",
+    "title": "Made carefully. Made to be worn every day.",
+    "items": [
+      { "title": "Local manufacturing", "text": "Garments are produced in Türkmenabat, so you work directly with the manufacturer." },
+      { "title": "Custom production", "text": "Models, sizes, colours and logo placement are agreed for each order." },
+      { "title": "Wide range", "text": "More than 100 types of workwear — one supplier for different departments." },
+      { "title": "Modern equipment", "text": "Modern sewing equipment supports neat seams and consistent results." },
+      { "title": "Comfort and protection", "text": "Garments are designed around movement, safety and the working environment." },
+      { "title": "Durable, professional look", "text": "Functional clothing that keeps its appearance through daily work." }
+    ]
+  },
+  "featured": {
+    "label": "Featured products",
+    "title": "A selection from the range",
+    "intro": "Sample positions shown for layout. Final models, photographs and specifications will be published by the manufacturer.",
+    "sample": "Sample item",
+    "enquire": "Enquire about this item",
+    "imgPrefix": "Photo:",
+    "noscript": "Product list"
+  },
+  "process": {
+    "label": "Production process",
+    "title": "From first enquiry to finished order",
+    "intro": "A clear sequence keeps every order predictable — from the brief to the packed garments.",
+    "steps": [
+      { "title": "Enquiry", "text": "You send your requirements through the quote form or contact us directly." },
+      { "title": "Requirements", "text": "We clarify tasks, working conditions, quantities and sizes." },
+      { "title": "Model and fabric", "text": "Models, fabrics, colours and logo placement are selected." },
+      { "title": "Sample", "text": "A sample is prepared so the garment can be assessed before production." },
+      { "title": "Approval", "text": "You confirm the sample, size range and order details." },
+      { "title": "Cutting", "text": "Fabric is marked and cut according to the approved patterns." },
+      { "title": "Sewing and branding", "text": "Garments are sewn and finished with embroidery or print where required." },
+      { "title": "Quality check and handover", "text": "Finished items are inspected, packed and handed over." }
+    ]
+  },
+  "testimonials": {
+    "label": "Client feedback",
+    "title": "What our clients say",
+    "text": "Client references will be published here once they have been approved by our customers.",
+    "tag": "[CLIENT TO PROVIDE: approved testimonials]"
+  },
+  "cta": {
+    "title": "Tell us what your team needs to wear",
+    "text": "Describe your industry, garment types and quantities. We will prepare a quote for your order.",
+    "button": "Request a Quote"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Talk to the manufacturer",
+    "intro": "Have a short question? Leave a message and we will get back to you. For a detailed order, use the quote form.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Working hours",
+    "streetTag": "[CLIENT TO PROVIDE: street address]",
+    "phoneTag": "[CLIENT TO PROVIDE: phone]",
+    "emailTag": "[CLIENT TO PROVIDE: email]",
+    "hoursTag": "[CLIENT TO PROVIDE: working hours]",
+    "formTitle": "Short message",
+    "quoteLink": "Go to the full quote form"
+  },
+  "form": {
+    "requiredNote": "Fields marked * are required.",
+    "name": "Your name",
+    "company": "Company name",
+    "person": "Contact person",
+    "phone": "Phone",
+    "email": "Email",
+    "industry": "Industry",
+    "type": "Uniform type",
+    "quantity": "Estimated quantity (pieces)",
+    "date": "Required delivery date",
+    "logo": "Logo customisation",
+    "message": "Message",
+    "messageHint": "Models, sizes, colours, fabric preferences or other details.",
+    "optional": "optional",
+    "select": "Select…",
+    "consent": "I agree that the details I provide may be used to contact me about this request.",
+    "submitQuote": "Send request",
+    "submitContact": "Send message",
+    "sending": "Sending…",
+    "noscript": "JavaScript is required to send this form. Please enable it or contact us directly.",
+    "logoOptions": { "none": "None", "embroidery": "Embroidery", "print": "Print" },
+    "industryOptions": {
+      "healthcare": "Healthcare",
+      "manufacturing": "Manufacturing",
+      "construction": "Construction",
+      "hospitality": "Hotels and restaurants",
+      "education": "Education",
+      "security": "Security services",
+      "government": "Government body",
+      "corporate": "Corporate / office",
+      "other": "Other"
+    },
+    "typeOther": "Several types / not sure yet",
+    "legends": { "company": "Your organisation", "order": "Order details", "extra": "Additional information" },
+    "errors": {
+      "summary": "Please correct the highlighted fields.",
+      "required": "Please fill in this field.",
+      "select": "Please choose an option.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number.",
+      "quantity": "Enter a whole number of 1 or more.",
+      "date": "The date cannot be in the past.",
+      "consent": "Please confirm your consent.",
+      "send": "The request could not be sent. Please try again or contact us directly.",
+      "notConfigured": "Online submission is not connected yet. [CLIENT TO PROVIDE: form delivery channel — see README]"
+    },
+    "success": {
+      "quoteTitle": "Thank you — your request has been sent",
+      "quoteText": "We will review the details and contact you to clarify the order and prepare a quote.",
+      "contactTitle": "Thank you — your message has been sent",
+      "contactText": "We will get back to you using the contact details you provided.",
+      "handoffTitle": "One more step",
+      "handoffText": "Your request has been prepared in your email or messaging app. Press send there to complete it.",
+      "again": "Send another request"
+    },
+    "subjectQuote": "Quote request — website",
+    "subjectContact": "Message — website"
+  },
+  "quote": {
+    "label": "Request a quote",
+    "title": "Tell us about your order",
+    "intro": "Fill in what you know — approximate figures are fine. We will clarify the rest with you.",
+    "asideTitle": "What happens next",
+    "asideSteps": [
+      "We review your request.",
+      "We contact you to clarify models, sizes, fabric and branding.",
+      "You receive a quote for your order."
+    ],
+    "prepTitle": "Useful to have ready",
+    "prepItems": [
+      "Number of employees and approximate size breakdown",
+      "Working conditions and tasks",
+      "Your logo file, if branding is needed"
+    ],
+    "directTitle": "Prefer to talk?",
+    "back": "Back to home page"
+  },
+  "footer": {
+    "tagline": "Professional uniforms and workwear, made in Turkmenistan.",
+    "legalLabel": "Legal name",
+    "member": "Member of the Union of Industrialists and Entrepreneurs of Turkmenistan",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "langTitle": "Language",
+    "rights": "All rights reserved."
+  },
+  "jsonld": {
+    "description": "Manufacturer of professional uniforms and workwear in Türkmenabat, Turkmenistan: medical, corporate, industrial, construction, hospitality, security, school, sportswear, high-visibility garments and accessories.",
+    "union": "Union of Industrialists and Entrepreneurs of Turkmenistan"
+  }
+}

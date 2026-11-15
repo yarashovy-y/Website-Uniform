@@ -1,0 +1,66 @@
+{
+  "_comment": "Product data rendered by js/products.js (and pre-rendered into the HTML by tools/build.mjs as the no-JS fallback). All six products are SAMPLE POSITIONS (placeholder: true) — names, summaries, SKUs and photos must be confirmed/replaced by the client. tk/ru text NEEDS NATIVE REVIEW. To use a real photo add \"src\": \"assets/img/products/<file>.webp\" plus \"width\" and \"height\" to the image object.",
+  "categories": ["medical", "corporate", "industrial", "construction", "hospitality", "security", "school", "sportswear", "hivis", "accessories"],
+  "products": [
+    {
+      "id": "medical-set",
+      "category": "medical",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "medical tunic and trousers set, 4:5", "ru": "медицинский костюм — блуза и брюки, 4:5", "tk": "lukmançylyk toplumy — köýnek we balak, 4:5" } },
+      "name": { "en": "Medical tunic and trousers set", "ru": "Медицинский костюм: блуза и брюки", "tk": "Lukmançylyk toplumy: köýnek we balak" },
+      "summary": { "en": "Everyday set for clinical staff.", "ru": "Повседневный комплект для медицинского персонала.", "tk": "Lukmançylyk işgärleri üçin gündelik toplum." }
+    },
+    {
+      "id": "work-overalls",
+      "category": "industrial",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "industrial work overalls, 4:5", "ru": "рабочий комбинезон, 4:5", "tk": "iş kombinezony, 4:5" } },
+      "name": { "en": "Work overalls", "ru": "Рабочий комбинезон", "tk": "Iş kombinezony" },
+      "summary": { "en": "Durable overalls for production and workshop tasks.", "ru": "Прочный комбинезон для производства и цеха.", "tk": "Önümçilik we seh işleri üçin berk kombinezon." }
+    },
+    {
+      "id": "hivis-vest",
+      "category": "hivis",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "high-visibility vest, 4:5", "ru": "сигнальный жилет, 4:5", "tk": "signal žileti, 4:5" } },
+      "name": { "en": "High-visibility vest", "ru": "Сигнальный жилет", "tk": "Signal žileti" },
+      "summary": { "en": "Signal vest for site and road work.", "ru": "Сигнальный жилет для работ на площадке и дороге.", "tk": "Meýdança we ýol işleri üçin signal žileti." }
+    },
+    {
+      "id": "chef-jacket",
+      "category": "hospitality",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "chef jacket and apron, 4:5", "ru": "поварской китель и фартук, 4:5", "tk": "aşpez penjegi we öňlük, 4:5" } },
+      "name": { "en": "Chef jacket and apron", "ru": "Поварской китель и фартук", "tk": "Aşpez penjegi we öňlük" },
+      "summary": { "en": "Kitchen uniform for restaurants and hotels.", "ru": "Форма для кухни ресторанов и гостиниц.", "tk": "Restoranlaryň we myhmanhanalaryň aşhanasy üçin geýim." }
+    },
+    {
+      "id": "office-set",
+      "category": "corporate",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "corporate office uniform, 4:5", "ru": "корпоративная офисная форма, 4:5", "tk": "korporatiw ofis geýimi, 4:5" } },
+      "name": { "en": "Corporate office uniform", "ru": "Корпоративная офисная форма", "tk": "Korporatiw ofis geýimi" },
+      "summary": { "en": "Coordinated set for office and front-desk staff.", "ru": "Единый комплект для офиса и ресепшен.", "tk": "Ofis we kabul ediş işgärleri üçin bitewi toplum." }
+    },
+    {
+      "id": "team-kit",
+      "category": "sportswear",
+      "featured": true,
+      "placeholder": true,
+      "sku": null,
+      "image": { "ratio": "4/5", "label": { "en": "team sports kit, 4:5", "ru": "командная спортивная форма, 4:5", "tk": "topar sport geýimi, 4:5" } },
+      "name": { "en": "Team sports kit", "ru": "Командная спортивная форма", "tk": "Topar sport geýimi" },
+      "summary": { "en": "Training and team wear for clubs and schools.", "ru": "Тренировочная и командная форма для клубов и школ.", "tk": "Klublar we mekdepler üçin türgenleşik we topar geýimi." }
+    }
+  ]
+}
